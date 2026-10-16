@@ -2,6 +2,10 @@
 If you're using VMware Workstation on Ubuntu, you can power on a VM from the terminal using the vmrun command.
 
 ## Frequently used commands
+- List running vms
+    ```
+    vmrun list
+    ```
 
 - Start my vmware vms
     ```
