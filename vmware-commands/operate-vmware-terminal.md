@@ -1,4 +1,20 @@
+# VmWare
 If you're using VMware Workstation on Ubuntu, you can power on a VM from the terminal using the vmrun command.
+
+## Frequently used commands
+
+- Start my vmware vms
+    ```
+    vmrun start "/home/ashwini/vmware/ubuntu_ado_agent_01/ubuntu_ado_agent_01.vmx" nogui
+    vmrun start "/home/ashwini/vmware/ubuntu_ado_agent_02/ubuntu_ado_agent_02.vmx" nogui
+    ```
+
+- Stop my vmware vms
+    ```
+    vmrun stop "/home/ashwini/vmware/ubuntu_ado_agent_01/ubuntu_ado_agent_01.vmx" soft
+    vmrun stop "/home/ashwini/vmware/ubuntu_ado_agent_02/ubuntu_ado_agent_02.vmx" soft
+    ```
+
 
 ## 1. Find vmrun
 
@@ -41,6 +57,7 @@ If you're using VMware Workstation on Ubuntu, you can power on a VM from the ter
     vmrun start "/home/user/VMs/UbuntuServer/UbuntuServer.vmx" nogui
     ```
 
+
 ## 4. Check running VMs
     ```
     vmrun list
@@ -63,6 +80,8 @@ If you're using VMware Workstation on Ubuntu, you can power on a VM from the ter
     ```
     vmrun stop "/home/user/VMs/UbuntuServer/UbuntuServer.vmx" hard
     ```
+
+
 
 ## 6. If vmrun is not available
 
